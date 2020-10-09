@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(-45deg, rgba(252, 6, 219, 0.705), rgba(243, 28, 28, 0.863), rgb(0, 110, 255), rgba(41, 41, 41, 0.884))
+    /* background: linear-gradient(-45deg, rgba(252, 6, 219, 0.705), rgba(243, 28, 28, 0.863),
+rgb(0, 110, 255), rgba(41, 41, 41, 0.884)); */
+background-color: rgb(255, 0, 140);
 }
 
 .container {
