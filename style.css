@@ -1,9 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(-45deg, rgba(252, 6, 219, 0.705), rgba(69, 3, 175, 0.863),
-rgb(0, 110, 255), rgba(41, 41, 41, 0.884));
-/* background-color: rgb(255, 0, 140); */
+    background: linear-gradient(-45deg, rgba(252, 6, 219, 0.705), rgba(69, 3, 175, 0.863), rgb(12, 192, 87), rgb(20, 20, 20));
 }
 
 .container {
@@ -20,6 +18,12 @@ section {
     display: flex;
 }
 
+section .jumbotron {
+    background-color: rgba(255, 255, 255, 0.555);
+    width: 80%;
+    margin-top: 20px;
+}
+
 section .imgbox {
     position: relative;
     min-width: 30%;
@@ -32,8 +36,8 @@ section .imgbox img {
     left: 5px;
     width: 60%;
     height: 50vh;
-
 }
+
 
 section .storybox {
     padding: 5px;
@@ -52,4 +56,15 @@ section .storybox p {
     color: white;
 }
 
+section .card {
+    height: 70%;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(78, 78, 78, 0.945);
+    color: rgba(255, 255, 255, 0.849);
+}
 
+section form {
+    margin: 40px;
+}
